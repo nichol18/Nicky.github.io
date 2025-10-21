@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "HTML/CSS",
+        "level": 90
+    },
+    {
+        "id": 2,
+        "name": "Data Analyst",
+        "level": 80
+    },
+    {
+        "id": 3,
+        "name": "Excel",
+        "level": 78
+    },
+    {
+        "id": 4,
+        "name": "Google Analytics 4",
+        "level": 80
+    },
+    {
+        "id": 5,
+        "name": "Copywriting SEO",
+        "level": 72
+    },
+    {
+        "id": 6,
+        "name": "Photography",
+        "level": 85
+    }
+]

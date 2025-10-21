@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "E-Commerce Platform",
+        "description": "Platform e-commerce modern dengan fitur pembayaran terintegrasi dan dashboard admin yang lengkap.",
+        "image": "assets/images/projects/andrea-caramello-1zGJijLk51M-unsplash.jpg",
+        "category": "web",
+        "categoryLabel": "Website",
+        "githubUrl": "https://github.com/nicky/ecommerce",
+        "liveUrl": "https://ecommerce.example.com"
+    },
+    {
+        "id": 2,
+        "title": "Task Management App",
+        "description": "Aplikasi manajemen tugas dengan fitur kolaborasi tim dan notifikasi real-time.",
+        "image": "assets/images/projects/taskapp.jpg",
+        "category": "app",
+        "categoryLabel": "Aplikasi",
+        "githubUrl": "https://github.com/nicky/taskapp",
+        "liveUrl": "https://taskapp.example.com"
+    },
+    {
+        "id": 3,
+        "title": "Banking App UI",
+        "description": "Desain UI untuk aplikasi perbankan dengan fokus pada keamanan dan kemudahan penggunaan.",
+        "image": "assets/images/projects/banking.jpg",
+        "category": "design",
+        "categoryLabel": "Desain",
+        "githubUrl": "https://github.com/nicky/banking-ui",
+        "liveUrl": "https://banking.example.com"
+    },
+    {
+        "id": 4,
+        "title": "Travel Website",
+        "description": "Website travel dengan sistem booking dan integrasi peta interaktif.",
+        "image": "assets/images/projects/travel.jpg",
+        "category": "web",
+        "categoryLabel": "Website",
+        "githubUrl": "https://github.com/nicky/travel",
+        "liveUrl": "https://travel.example.com"
+    },
+    {
+        "id": 5,
+        "title": "Fitness Tracker",
+        "description": "Aplikasi pelacak kebugaran dengan analisis data kesehatan dan rekomendasi workout.",
+        "image": "assets/images/projects/fitness.jpg",
+        "category": "app",
+        "categoryLabel": "Aplikasi",
+        "githubUrl": "https://github.com/nicky/fitness",
+        "liveUrl": "https://fitness.example.com"
+    },
+    {
+        "id": 6,
+        "title": "Social Media Dashboard",
+        "description": "Dashboard analitik media sosial dengan visualisasi data yang menarik dan informatif.",
+        "image": "assets/images/projects/dashboard.jpg",
+        "category": "design",
+        "categoryLabel": "Desain",
+        "githubUrl": "https://github.com/nicky/dashboard",
+        "liveUrl": "https://dashboard.example.com"
+    }
+]

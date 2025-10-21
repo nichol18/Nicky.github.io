@@ -1,0 +1,261 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicky Syam Rijal - Portfolio</title>
+    <meta name="description" content="Portfolio pribadi Nicky Syam Rijal - Web Developer & UI/UX Designer">
+    <meta name="keywords" content="portfolio, web developer, UI/UX designer, Nicky Syam Rijal">
+    <meta name="author" content="Nicky Syam Rijal">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Nicky Syam Rijal - Portfolio">
+    <meta property="og:description" content="Portfolio pribadi Nicky Syam Rijal - Web Developer & UI/UX Designer">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="#">
+    <meta property="og:image" content="#">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-circle"></div>
+    </div>
+
+    <!-- Header Component (akan dimuat dari file) -->
+    <div id="headerComponent"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right">
+                    <h1>Hi, I'm <span>Nicky Syam Rijal</span></h1>
+                    <div class="typing-text" id="typingText"></div>
+                    <p>Combining research, analytics, and content strategy to drive audience engagement and optimize digital campaign performance.</p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn">Lihat Portfolio</a>
+                        <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/nicky-syam-rijal" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left">
+                    <div class="profile-img">
+                        <img src="assets/images/profile/IMG_2071.jpg" alt="Nicky Syam Rijal">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <p class="section-subtitle">Perkenalan Singkat</p>
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p>I am a graduate of the Bachelor of Economics program at Sultan Ageng Tirtayasa University with practical experience in managing social programs, administration, business operations, and digital marketing.</p>
+                    <p>During my studies, I was actively involved as an Amil (charity officer) at DT Peduli, contributing to the distribution of social aid, public education, and the management of zakat-related administration and reports. I also held a role in the Economics Student Association, particularly in the communication and information division, which involved creating digital content, visual design, and program publication based on research into student needs.</p>
+                    <p> I am used to independently managing a service-based business, which has strengthened my skills in operations, customer service, financial management, and digital promotion.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <strong>Nama:</strong>
+                                <span>Nicky Syam Rijal</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Telepon/Whatsapp:</strong>
+                                <span>+6285156492940</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email:</strong>
+                                <span>nickyysyam@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Lokasi:</strong>
+                                <span>Tangerang, Indonesia</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <img src="assets/images/profile/s67 2025-09-27 235137.146.jpg" alt="Nicky Syam Rijal" style="width: 100%; border-radius: 12px; box-shadow: var(--card-shadow);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <p class="section-subtitle">Keahlian Saya</p>
+                <h2>Hard Skills</h2>
+            </div>
+            <div class="skills-grid" id="skillsGrid">
+                <!-- Skills will be loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <p class="section-subtitle">Karya Saya</p>
+                <h2>Portfolio</h2>
+            </div>
+            <div class="portfolio-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="web">Website</button>
+                <button class="filter-btn" data-filter="app">Aplikasi</button>
+                <button class="filter-btn" data-filter="design">Desain</button>
+            </div>
+            <div class="portfolio-grid" id="portfolioGrid">
+                <!-- Portfolio items will be loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <p class="section-subtitle">Tulisan Saya</p>
+                <h2>Blog & Jurnal</h2>
+            </div>
+            <div class="blog-grid" id="blogGrid">
+                <!-- Blog items will be loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <p class="section-subtitle">Hubungi Saya</p>
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Alamat</h4>
+                            <p>Tangerang, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Telepon</h4>
+                            <p>+6285156492940</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>nickyysyam@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Jam Kerja</h4>
+                            <p>Senin - Jumat: 09:00 - 18:00</p>
+                        </div>
+                    </div>
+                </div>
+                <form id="contactForm" action="https://formspree.io/f/xnngrejb" method="POST">
+    <div class="form-group">
+        <label for="name">Nama Lengkap</label>
+        <input type="text" id="name" name="name" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="subject">Subjek</label>
+        <input type="text" id="subject" name="subject" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="message">Pesan</label>
+        <textarea id="message" name="message" class="form-control" required></textarea>
+    </div>
+    <button type="submit" class="btn">Kirim Pesan</button>
+</form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Component (akan dimuat dari file) -->
+    <div id="footerComponent"></div>
+
+    <!-- Navigation Component (akan dimuat dari file) -->
+
+    <!-- Scroll to Top Button -->
+    <a href="#" class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
