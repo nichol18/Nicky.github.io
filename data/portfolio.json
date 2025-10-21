@@ -12,8 +12,7 @@
     {
         "id": 2,
         "title": "GA4 Data Analytics Dashboard",
-        "description": "Dashboard analitik berbasis Google Analytics 4 (GA4) yang menampilkan performa kampanye digital dan perilaku audiens secara real-time.
-Fitur utama mencakup pelacakan event, segmentasi pengguna, dan visualisasi data untuk membantu pengambilan keputusan.",
+        "description": "Dashboard analitik berbasis Google Analytics 4 (GA4) yang menampilkan performa kampanye digital dan perilaku audiens secara real-time.",
         "image": "assets/images/projects/taskapp.jpg",
         "category": "app",
         "categoryLabel": "Aplikasi",
